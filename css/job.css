@@ -5,12 +5,11 @@ section.container{
     background-image: url("../img/imgone.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 30px;
     }
 
     @media (max-width:800px){ 
 section.container {
-     background: #78bcd1bd;
+     background:none;
     } 
   }
 h1.funny-title{
@@ -49,7 +48,7 @@ h1{
      }
      
 .menulist li {
-     padding: 30px;
+     padding: 20px;
      }
 
 .menulist a{
@@ -75,7 +74,7 @@ h6{
 } 
 @media (max-width:800px){ 
 h6 {
-    font-size: 25px;
+    font-size: 20px;
     } 
   }
 
@@ -106,7 +105,7 @@ h2 {
   text-align: center;
   width: 400px;
     border-radius: 30px;
-    padding: 15px;
+    padding: 25px;
     background:rgb(80, 79, 168);;
     font-size: 3rem;
     color:rgb(202, 100, 17);
@@ -117,6 +116,7 @@ h2 {
 .phone-number {
      width: 200px;
      font-size: 20px;
+     padding: 10px;
     
     } 
   }
@@ -177,7 +177,7 @@ h4 {
 }
 @media (max-width:800px){ 
 .mySlides {
-     width: 400px;;
+     width: 350px;;
     } 
   }
 
@@ -271,7 +271,7 @@ margin-top: 30px;
 
 @media (max-width:850px){ 
 div.form {
-     background: #78bcd1bd;
+     background:none;
     } 
   }
 .form-login {
@@ -287,7 +287,7 @@ div.form {
 
 @media (max-width:700px){ 
 .form-login {
-     width: 300px;
+     width: 280px;
     } 
   }
 .form-group{
