@@ -46,7 +46,11 @@ h1{
   list-style-type: none;
   text-align: center;
      }
-     
+     @media (max-width:800px){ 
+.menulist  {
+    text-align: left;
+    } 
+  }
 .menulist li {
      padding: 20px;
      }
@@ -197,6 +201,11 @@ h4 {
   transition: 0.6s ease;
   user-select: none;
 }
+@media (max-width:850px){ 
+.prev, .next {
+     display: none;
+    } 
+  }
 
 /* Position the "next button" to the right */
 .next {
@@ -207,7 +216,6 @@ h4 {
   background:url('../img/foot.png');
   background-size: cover;
   width:40px ;
-  
 }
 
 .text {
@@ -324,7 +332,7 @@ div.form {
 }
 @media (max-width:850px){ 
 .custom select{
-     width: 280px;
+     width: 200px;
     font-size: 20px; 
     padding: 10px;
     } 
@@ -345,8 +353,8 @@ div.form {
 
 @media (max-width:850px){ 
 .btn{
-     width: 150px;
-     font-size: 20px;
+     width: 120px;
+     font-size: 15px;
     } 
   }
 
